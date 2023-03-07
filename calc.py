@@ -1,0 +1,1 @@
+oper = input("Enter operation using an appropriate number: 1 Addition, 2 Subtraction, 3 Multiplication, 4 Division: ")
