@@ -1,15 +1,15 @@
 oper = input("Enter operation using an appropriate number: 1 Addition, 2 Subtraction, 3 Multiplication, 4 Division: ")
-first_component = input("Enter first component: ")
-second_component = input("Enter second component: ")
+x = input("Enter first component: ")
+y = input("Enter second component: ")
 if oper == '1':
-    print("Adding ", float(first_component), "and", float(second_component))
-    print("Result: ", float(first_component) + float(second_component))
+    print("Adding ", float(x), "and", float(y))
+    print("Result: ", float(x) + float(y))
 elif oper == '2':
-    print("Subtracting ", float(first_component), "and", float(second_component))
-    print("Result: ", float(first_component) - float(second_component))
+    print("Subtracting ", float(x), "and", float(y))
+    print("Result: ", float(x) - float(y))
 elif oper == '3':
-    print("Multiplicating ", float(first_component), "and", float(second_component))
-    print("Result: ", float(first_component) * float(second_component))
+    print("Multiplicating ", float(x), "and", float(y))
+    print("Result: ", float(x) * float(y))
 elif oper == '4':
-    print("Dividing ", float(first_component), "and", float(second_component))
-    print("Result: ", float(first_component) / float(second_component))
+    print("Dividing ", float(x), "and", float(y))
+    print("Result: ", float(x) / float(y))
